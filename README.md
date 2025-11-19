@@ -24,9 +24,9 @@ Proyek ini adalah backend sederhana berbasis **Node.js (Express)** yang berfungs
 Salin file `.env.example` menjadi `.env`, lalu isi nilai-nilainya:
 
 ```env
-PORT=3000                # Port untuk server Express
-MQTT_TOPIC=speech/input  # Topik MQTT yang akan dikirim
-APP_URL=http://localhost:3000
+PORT=        # Port untuk server Express
+MQTT_TOPIC=  # Topik MQTT yang akan dikirim
+APP_URL=
 ````
 
 > ✅ Pastikan broker MQTT kamu aktif dan mendukung koneksi dari server ini.
